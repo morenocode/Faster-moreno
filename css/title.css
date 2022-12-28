@@ -1,0 +1,6 @@
+.title{
+  /* border: 1px solid red; */
+  font: var(--button);
+  text-transform: uppercase;
+  /* margin-inline-start: 1.25rem; */
+}

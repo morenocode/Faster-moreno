@@ -1,0 +1,7 @@
+.phone{
+  aspect-ratio: 9/16;
+  position: sticky;
+  inset-block-start: 5.375rem;
+  z-index: 1;
+  margin-block-start: 8.25rem;
+}

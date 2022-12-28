@@ -1,0 +1,33 @@
+@import './title.css';
+@import './navigation.css';
+@import './header-button.css';
+
+
+.header-content{
+  background-color: var(--black);
+  color: var(--white);
+  padding-inline: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+/* border: 2px solid red; */
+
+}
+
+.header{
+/* border: 2px solid yellow; */
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 2;
+  inline-size: 100vw;
+
+}
+
+@media screen and (max-width: 1468px){
+.header-content .navigation,
+.header-content .header-button{
+  display: none;
+ }
+
+}
+

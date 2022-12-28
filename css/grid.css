@@ -1,0 +1,72 @@
+:root{
+  --sizePhone: 400px;
+  --columnSize: 1fr var(--sizePhone) 880px 1fr;
+  --primary: #fed941;
+  --white: #ffffff;
+  --grey: #808080;
+  --black: #000000;
+  --headline3: Extra bold 2.875rem/3.5rem Inter;
+  --headline2: 700 3rem/3.625rem Inter;
+  --headline4: 700 1.75rem/normal Inter;
+  --headline5: 700 1.5625rem/normal Inter;
+  --button: 700 1.125rem/1.75rem Inter;
+  --caption: 400 0.75rem/1.375rem Inter;
+  --body1-regular: 400 1.125rem/1.6875rem Inter;
+  --body1-bold: 700 1.125rem/1.6875rem Inter;
+  --body2-regular: 400 1rem/1.375rem Inter;
+  --body2-bold: 700 1rem/1.1875rem Inter;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: var(--columnSize) ;
+  grid-template-rows: 814px 1121px 775px 775px ;
+  grid-template-areas: "wrapper-start phone content wrapper-end";
+}
+
+.grid section{
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: var(--columnSize);
+  grid-template-areas: " . . content . ";
+}
+
+.inset-grid [class*="content"]{
+  grid-area: content;
+}
+
+.phone{
+  grid-area: phone;
+}
+
+.hero{
+  grid-row-start: 1;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+  :root{
+  --sizePhone: 400px;
+  --columnSize: 1fr ;
+}
+
+.phone{
+  display: none;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: var(--columnSize) ;
+  grid-template-rows: 814px 1121px 775px 775px ;
+  grid-template-areas: "content";
+}
+
+.grid section{
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: var(--columnSize);
+  grid-template-areas: "content";
+}
+}

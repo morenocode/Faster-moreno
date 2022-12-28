@@ -1,0 +1,36 @@
+@import './grid.css';
+@import './header.css';
+@import './phone.css';
+@import './hero.css';
+@import './first-section.css';
+@import './second-section.css';
+@import './third-section.css';
+@import './paragraph.css';
+@import './happy-section.css';
+@import './comment-section.css';
+@import './footer.css';
+
+
+:root{
+  --columnSize: 1fr 400px 1028px 1fr;
+  --primary: #fed941;
+  --white: #ffffff;
+  --grey: #808080;
+  --black: #000000;
+  --headline3: Extra bold 2.875rem/3.5rem Inter;
+  --headline2: 700 3rem/3.625rem Inter;
+  --headline4: 700 1.75rem/normal Inter;
+  --headline5: 700 1.5625rem/normal Inter;
+  --button: 700 1.125rem/1.75rem Inter;
+  --caption: 400 0.75rem/1.375rem Inter;
+  --body1-regular: 400 1.125rem/1.6875rem Inter;
+  --body1-bold: 700 1.125rem/1.6875rem Inter;
+  --body2-regular: 400 1rem/1.375rem Inter;
+  --body2-bold: 700 1rem/1.1875rem Inter;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+

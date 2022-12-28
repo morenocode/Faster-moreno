@@ -1,0 +1,32 @@
+.faster{
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.faster-description{
+  margin: 0;
+
+}
+
+.faster-description span:first-child{
+  color: var(--white);
+  font: var(--headline4);
+  display: block;
+}
+
+.faster-description span:last-child{
+  color: var(--grey);
+  font: var(--caption)
+}
+
+.faster-images{
+  margin-block-start: 1.75rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.faster-images img{
+  inline-size: 2.25rem;
+  aspect-ratio: 1/1;
+}

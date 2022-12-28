@@ -1,0 +1,26 @@
+.navigation {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  cursor: pointer;
+  color: var(--grey);
+  user-select: none;
+}
+
+.navigation a {
+  display: inline-block;
+}
+
+.navigation a:nth-of-type(1){
+  color: var(--white);
+}
+
+.navigation a:active{
+  transform: scale(.95);
+}
+
+.navigation a:hover{
+  color: var(--white);
+}

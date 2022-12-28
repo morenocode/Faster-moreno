@@ -1,0 +1,20 @@
+.comment-description{
+  inline-size: 22.7rem;
+  margin-block-start: 8rem;
+  margin-inline: 2rem;
+  block-size: 13.20rem;
+}
+
+.comment-description p{
+  margin: 0;
+  font: var(--body1-regular);
+  text-align: center;
+}
+
+@media screen and (max-width: 1468px){
+.comment-description{
+  inline-size: 16rem;
+
+}
+
+}

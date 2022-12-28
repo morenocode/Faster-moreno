@@ -1,0 +1,37 @@
+@import './hero-text.css';
+@import './hero-link.css';
+
+.hero{
+   background-image: url('../images/background.png');
+   color: var(--white);
+}
+
+.hero-content{
+  inline-size: 42.81rem;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  padding: 0;
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 13.18rem;
+  margin-block-start: 12.93rem;
+  margin-block-end: 13.125rem;
+
+
+}
+
+.hero-content p {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1300px) {
+.hero-content{
+  inline-size: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  padding: 0;
+  inline-size: 320px;
+  margin: auto;
+}
+
+}

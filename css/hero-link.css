@@ -1,0 +1,21 @@
+.hero-link button{
+  background: transparent;
+  color: white;
+  font: var(--button);
+  border-radius: .25rem;
+  border: 2px solid var(--white);
+  padding-block: .75rem ;
+  padding-inline: 3.812rem ;
+  margin-block: 1.5rem;
+  cursor: pointer;
+}
+
+.hero-link button:active{
+  transform: scale(.95);
+}
+
+.hero-link a{
+  display: block;
+  color: var(--grey);
+  font: var(--body1-regular);
+}

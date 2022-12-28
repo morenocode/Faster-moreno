@@ -1,0 +1,30 @@
+.happy-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  inline-size: 100vw;
+  max-inline-size: 100%;
+
+}
+
+.happy-details{
+  margin-block-start: 12.5rem;
+  margin-block-end: 12.5rem;
+
+}
+
+.happy-details img{
+  margin-block-end: 4rem;
+}
+
+@media screen and (max-width: 1468px){
+
+.happy-details img{
+  inline-size: 100vw;
+
+}
+.happy-section{
+  margin-inline: .5rem;
+}
+
+}

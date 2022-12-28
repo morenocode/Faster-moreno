@@ -1,0 +1,33 @@
+.product{
+  /* border: 1px solid red; */
+  max-inline-size: auto;
+
+}
+
+.product ul{
+  color: var(--white);
+  font: var(--button);
+  -webkit-appearance:none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.product summary{
+  padding-block-end: 4px;
+
+}
+
+.product ul li{
+  list-style: none;
+}
+
+.product ul li a{
+  text-decoration: none;
+  color: #A5A5A5;
+  font: var(--body1-regular);
+}
+
+.product ul li a:hover{
+  color: var(--white);
+}

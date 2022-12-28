@@ -1,0 +1,28 @@
+@import './footer-faster.css';
+@import './footer-product.css';
+@import './footer-company.css';
+
+.footer{
+  background: var(--black);
+  padding-block-end: 8rem ;
+  padding-inline-start: 4rem;
+  padding-inline-end: 2rem;
+}
+
+.details{
+ display: flex;
+ gap: 8rem;
+ align-items: flex-start;
+
+}
+
+@media screen and (max-width: 1468px){
+.details{
+   display: flex;
+   flex-direction: column;
+   gap: 4rem;
+   justify-content: center;
+   align-items: flex-start;
+ }
+
+}

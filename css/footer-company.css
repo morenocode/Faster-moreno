@@ -1,0 +1,33 @@
+.company{
+  /* border: 1px solid red; */
+  max-inline-size: auto;
+
+}
+
+.company ul{
+  color: var(--white);
+  font: var(--button);
+  -webkit-appearance:none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.company summary{
+  padding-block-end: 4px;
+
+}
+
+.company ul li{
+  list-style: none;
+}
+
+.company ul li a{
+  text-decoration: none;
+  color: #A5A5A5;
+  font: var(--body1-regular);
+}
+
+.company ul li a:hover{
+  color: var(--white);
+}

@@ -1,0 +1,13 @@
+.comment-image{
+  text-align: center;
+  block-size: 0 ;
+
+}
+
+.comment-image img{
+  vertical-align: middle;
+  transform: translateY(-50px);
+  inline-size: 6.25rem;
+  block-size: 6.25rem;
+}
+

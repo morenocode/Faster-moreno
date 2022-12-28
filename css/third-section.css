@@ -1,0 +1,50 @@
+.third-section{
+  background-color: var(--black);
+}
+
+.third-section-content{
+  color: var(--white);
+  padding-inline-start: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.third-section-content p {
+  color: var(--white);
+}
+
+.third-section-text{
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 3.75rem;
+  margin-block-start: 207px;
+
+}
+
+.third-image{
+  position: relative;
+  overflow: hidden;
+  margin-block-end: 245px;
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+
+.image-background{
+  flex: 1;
+  block-size: 2.5rem;
+  background: var(--white);
+  margin-inline-start: 36px;
+
+}
+
+.image-color{
+  max-inline-size: 25rem;
+  inline-size: 100%;
+  block-size: 2.5rem;
+  background: #2FB464;
+  border-radius: 2rem;
+  position: absolute;
+  top: 0;
+}

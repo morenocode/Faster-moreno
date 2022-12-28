@@ -1,0 +1,12 @@
+.header-button{
+  /* border: 1px solid red; */
+  font: var(--button);
+  border-radius: .5rem;
+  padding-inline: 1rem ;
+  padding-block: .5rem;
+  cursor: pointer;
+}
+
+.header-button:active{
+  transform: scale(.95);
+}

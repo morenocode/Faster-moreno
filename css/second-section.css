@@ -1,0 +1,23 @@
+.second-section{
+  background-image: url(../images/background-secondSection.png);
+  background-size: cover;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.second-section-content{
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline-start: 1.5rem;
+
+}
+
+.second-section-text{
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 13rem;
+  margin-block-end: 21.7rem;
+}
+

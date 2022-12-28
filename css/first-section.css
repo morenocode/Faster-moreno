@@ -1,0 +1,51 @@
+.first-section{
+  /* border: 1px solid red; */
+  background-color: var(--white);
+}
+
+.first-section-logo{
+
+  max-inline-size: 35.18rem;
+  inline-size: 100%;
+  block-size: 4.56rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block-start: 2.75rem;
+  margin-block-end: 8rem;
+
+}
+
+.first-section-image{
+
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 1.25rem;
+  border-radius: .5rem ;
+  overflow: hidden;
+}
+
+.first-section-image img{
+  object-fit: cover;
+  vertical-align: middle;
+  inline-size: 100%;
+  /* inline-size: 876px; */
+  block-size: 31rem;
+}
+
+.first-section-text{
+  margin-inline-start: 1.5rem;
+  margin-block-start: 4rem;
+  margin-block-end: 7.75rem;
+}
+
+
+.first-section-text p:nth-of-type(1){
+  max-inline-size: 611px;
+  inline-size: 100%;
+
+}
+
+.first-section-text p:nth-of-type(2){
+  max-inline-size: 36.25rem;
+  inline-size: 100%;
+}
